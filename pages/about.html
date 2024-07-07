@@ -24,9 +24,40 @@
     <hr>
 
 
+    <div>
+        <select onchange="loadInIframe(this.value)">
+            <option value="">About_Us</option>
+            <option value="https://sprightly-churros-df3f75.netlify.app/dans">Dans </option>
+            <option value="https://sprightly-churros-df3f75.netlify.app/institute"> Institute At Glance</option>
+            <option value="https://sprightly-churros-df3f75.netlify.app/vision">Vision, Mission</option>
+            <option value="https://sprightly-churros-df3f75.netlify.app/founder">Founder President's Message</option>
+            <option value="https://sprightly-churros-df3f75.netlify.app/branch"> Branches</option>
+        </select>
+    </div>
 
+    &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+    &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+    &nbsp; &nbsp; &nbsp;  &nbsp;  &nbsp;  
+    
 
     
-    <h1>About Page</h1>
+    <iframe id="contentFrame" width="1100" height="440" src="https://www.youtube.com/embed/sd9xTQAZmoM?si=RvLAYdEbRkzN0Qfl" 
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+     picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen muted></iframe>
+    
+    <script>
+        function loadInIframe(url) {
+            if (url) {
+                document.getElementById('contentFrame').src = url;
+            }
+        }
+    </script>
+
+
+
+
 </body>
 </html>
+
+    
+    
