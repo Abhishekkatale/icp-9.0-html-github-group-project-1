@@ -73,3 +73,20 @@ To run this project locally, follow these steps:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/Abhishekkatale/icp-9.0-html-github-group-project-1.git
+
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+    Fork the repository.
+    Create a new branch (git checkout -b feature-branch).
+    Make your changes.
+    Commit your changes (git commit -m 'Add some feature').
+    Push to the branch (git push origin feature-branch).
+    Create a new Pull Request.
+
+## Technologies Used
+
+    Frontend: HTML.
+    Other Tools: Git for version control.
