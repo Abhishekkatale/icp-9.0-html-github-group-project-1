@@ -90,3 +90,8 @@ Contributions are welcome! Please follow these steps:
 
     Frontend: HTML.
     Other Tools: Git for version control.
+
+## Acknowledgements
+
+    Thanks to the college administration for providing the necessary information and resources.
+    Special thanks to all contributors for their hard work and dedication.
