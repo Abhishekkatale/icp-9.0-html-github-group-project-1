@@ -72,4 +72,4 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/college-website.git
+   git clone https://github.com/Abhishekkatale/icp-9.0-html-github-group-project-1.git
